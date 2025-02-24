@@ -4,7 +4,6 @@
 #include <cstdint>
 #include "alg.h"
 
-
 TEST(PrimeTest, CheckPrimeTrue) {
     EXPECT_TRUE(checkPrime(7));
     EXPECT_TRUE(checkPrime(13));
