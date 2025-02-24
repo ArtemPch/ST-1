@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "src\\alg.cpp",
               "ToolTip": "D:\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ST-1\\src\\alg.cpp",
               "RelativeToolTip": "src\\alg.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T18:45:26.44Z",
               "IsPinned": true,
@@ -60,8 +60,7 @@
               "RelativeToolTip": ".vs\\launch.vs.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-24T18:56:56.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T18:56:56.405Z"
             },
             {
               "$type": "Document",
