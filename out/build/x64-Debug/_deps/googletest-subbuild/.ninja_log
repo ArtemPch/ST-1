@@ -1,0 +1,21 @@
+# ninja log v5
+1	103	7621259059732328	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	ddc4ba2516cff473
+1	103	7621259059732328	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	ddc4ba2516cff473
+104	4302	7621259101709677	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	3e229199814b394b
+104	4302	7621259101709677	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	3e229199814b394b
+4302	4487	0	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	520ccccea34c5250
+4302	4487	0	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	520ccccea34c5250
+4487	4560	7621259104299691	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	5f1827f6d74bb0a8
+4487	4560	7621259104299691	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	5f1827f6d74bb0a8
+4561	4631	7621259105013251	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	ff4927c41d681e59
+4561	4631	7621259105013251	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	ff4927c41d681e59
+4631	4703	7621259105723253	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	381c9a8d5582e418
+4631	4703	7621259105723253	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	381c9a8d5582e418
+4703	4775	7621259106449584	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	6b46aca13f153efc
+4703	4775	7621259106449584	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	6b46aca13f153efc
+4775	4850	7621259107199562	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	231b196a84eef380
+4775	4850	7621259107199562	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	231b196a84eef380
+4850	4944	7621259108139555	CMakeFiles/googletest-populate-complete	59d3308330cb4b6f
+4850	4944	7621259108139555	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	59d3308330cb4b6f
+4850	4944	7621259108139555	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	59d3308330cb4b6f
+4850	4944	7621259108139555	D:/проектирование/ST-1/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	59d3308330cb4b6f

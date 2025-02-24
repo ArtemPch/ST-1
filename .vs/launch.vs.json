@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "dll",
+      "exe": "",
+      "project": "CMakeLists.txt",
+      "projectTarget": "ST-1.dll (src\\ST-1.dll)",
+      "name": "ST-1.dll (src\\ST-1.dll)"
+    }
+  ]
+}
