@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "src\\alg.cpp",
               "ToolTip": "D:\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\ST-1\\src\\alg.cpp",
               "RelativeToolTip": "src\\alg.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T18:45:26.44Z",
               "IsPinned": true,
@@ -73,8 +73,7 @@
               "RelativeToolTip": "test\\tests.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T18:45:32.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T18:45:32.319Z"
             },
             {
               "$type": "Document",
@@ -86,8 +85,7 @@
               "RelativeToolTip": "test\\AllTests.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T18:45:30.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T18:45:30.895Z"
             },
             {
               "$type": "Document",
@@ -99,8 +97,7 @@
               "RelativeToolTip": "src\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T18:45:27.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T18:45:27.623Z"
             },
             {
               "$type": "Document",
@@ -112,8 +109,7 @@
               "RelativeToolTip": "include\\alg.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-24T18:45:16.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T18:45:16.473Z"
             }
           ]
         }
