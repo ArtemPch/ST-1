@@ -1,4 +1,4 @@
-// Copyright 2025 UNN-CS
+// Copyright 2025 CMake
 
 #include "alg.h"
 #include <cstdint>

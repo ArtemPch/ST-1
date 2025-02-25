@@ -1,20 +1,21 @@
-// Copyright 2025 UNN-CS
+// Copyright 2025 CMake
+
 #include "alg.h"
 #include <cstdint>
 
 bool checkPrime(uint64_t value) {
   if (value < 2)
-  return false;
+    return false;
   for (uint64_t i = 2; i * i <= value; ++i) {
     if (value % i == 0)
-    return false;
+      return false;
   }
   return true;
 }
 
 uint64_t nPrime(uint64_t n) {
   if (n == 0)
-  return 0;
+    return 0;
   uint64_t count = 0, num = 1;
   while (count < n) {
     ++num;
