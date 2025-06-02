@@ -25,7 +25,7 @@ bool checkPrime(uint64_t num) {
       return false;
     }
   }
-return true;
+  return true;
 }
 
 uint64_t nPrime(uint64_t n) {
@@ -39,7 +39,7 @@ uint64_t nPrime(uint64_t n) {
       count++;
     }
   }
-return candidate;
+  return candidate;
 }
 
 uint64_t nextPrime(uint64_t start) {
@@ -50,7 +50,7 @@ uint64_t nextPrime(uint64_t start) {
     if (checkPrime(candidate)) {
       return candidate;
     }
-  candidate += 2;
+    candidate += 2;
   }
 }
 
@@ -63,5 +63,5 @@ uint64_t sumPrime(uint64_t limit) {
       total += num;
     }
   }
-return total;
+  return total;
 }
