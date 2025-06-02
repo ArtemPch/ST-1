@@ -31,10 +31,8 @@ bool checkPrime(uint64_t num) {
 uint64_t nPrime(uint64_t n) {
     if (n == 0) return 0;
     if (n == 1) return 2;
-    
     uint64_t count = 1;  // Уже учли первое простое число 2
     uint64_t candidate = 1;  // Начнем с нечетного числа
-    
     while (count < n) {
         candidate += 2;
         if (checkPrime(candidate)) {
@@ -47,7 +45,6 @@ uint64_t nPrime(uint64_t n) {
 uint64_t nextPrime(uint64_t start) {
     if (start < 2) return 2;
     if (start == 2) return 3;
-    
     uint64_t candidate = (start % 2 == 0) ? start + 1 : start + 2;
     while (true) {
         if (checkPrime(candidate)) {
@@ -60,7 +57,6 @@ uint64_t nextPrime(uint64_t start) {
 uint64_t sumPrime(uint64_t limit) {
     if (limit <= 2) return 0;
     uint64_t total = 2;  // Учитываем 2
-    
     // Перебор только нечетных чисел
     for (uint64_t num = 3; num < limit; num += 2) {
         if (checkPrime(num)) {
