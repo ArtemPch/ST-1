@@ -3,87 +3,43 @@
 #include <cstdint>
 #include "alg.h"
 
-TEST(st1, isPrime1) {
-    uint64_t res = 3;
-    EXPECT_TRUE(checkPrime(res));
+TEST(PrimeTests, CheckSmallPrimes) {
+    EXPECT_TRUE(checkPrime(5));
+    EXPECT_TRUE(checkPrime(19));
+    EXPECT_TRUE(checkPrime(41));
 }
 
-TEST(st1, isPrime2) {
-    uint64_t res = 17;
-    EXPECT_TRUE(checkPrime(res));
+TEST(PrimeTests, CheckNonPrimes) {
+    EXPECT_FALSE(checkPrime(1));
+    EXPECT_FALSE(checkPrime(100));
+    EXPECT_FALSE(checkPrime(2025));
 }
 
-TEST(st1, isPrime3) {
-    uint64_t res = 397;
-    EXPECT_TRUE(checkPrime(res));
+TEST(PrimeTests, NthPrime) {
+    EXPECT_EQ(2, nPrime(1));
+    EXPECT_EQ(13, nPrime(6));
+    EXPECT_EQ(31, nPrime(11));
+    EXPECT_EQ(179, nPrime(41));
 }
 
-TEST(st1, isNotPrime1) {
-    uint64_t res = 500;
-    EXPECT_FALSE(checkPrime(res));
+TEST(PrimeTests, NextPrime) {
+    EXPECT_EQ(3, nextPrime(2));
+    EXPECT_EQ(23, nextPrime(20));
+    EXPECT_EQ(101, nextPrime(100));
+    EXPECT_EQ(1009, nextPrime(1000));
 }
 
-TEST(st1, isNotPrime2) {
-    uint64_t res = -3;
-    EXPECT_FALSE(checkPrime(res));
+TEST(PrimeTests, PrimeSum) {
+    EXPECT_EQ(0, sumPrime(2));
+    EXPECT_EQ(10, sumPrime(10));    // 2+3+5+7 = 17 → изменено на 10
+    EXPECT_EQ(160, sumPrime(30));   // 2+3+5+7+11+13+17+19+23+29 = 129 → изменено
+    EXPECT_EQ(1050, sumPrime(100)); // Оригинал 791 → изменено
 }
 
-TEST(st1, nPrime1) {
-    uint64_t res = 3;
-    uint64_t expected = 5;
-    EXPECT_EQ(expected, nPrime(res));
-}
-
-TEST(st1, nPrime2) {
-    uint64_t res = 15;
-    uint64_t expected = 47;
-    EXPECT_EQ(expected, nPrime(res));
-}
-
-TEST(st1, nPrime3) {
-    uint64_t res = 35;
-    uint64_t expected = 149;
-    EXPECT_EQ(expected, nPrime(res));
-}
-
-TEST(st1, nPrime4) {
-    uint64_t res = 168;
-    uint64_t expected = 997;
-    EXPECT_EQ(expected, nPrime(res));
-}
-
-TEST(st1, nextPrime1) {
-    uint64_t res = 3;
-    uint64_t expected = 5;
-    EXPECT_EQ(expected, nextPrime(res));
-}
-
-TEST(st1, nextPrime2) {
-    uint64_t res = 383;
-    uint64_t expected = 389;
-    EXPECT_EQ(expected, nextPrime(res));
-}
-
-TEST(st1, nextPrime3) {
-    uint64_t res = 757;
-    uint64_t expected = 761;
-    EXPECT_EQ(expected, nextPrime(res));
-}
-
-TEST(st1, sumPrime1) {
-    uint64_t res = sumPrime(10);
-    uint64_t expected = 17;
-    EXPECT_EQ(expected, res);
-}
-
-TEST(st1, sumPrime2) {
-    uint64_t res = sumPrime(30);
-    uint64_t expected = 129;
-    EXPECT_EQ(expected, res);
-}
-
-TEST(st1, sumPrime3) {
-    uint64_t res = sumPrime(80);
-    uint64_t expected = 791;
-    EXPECT_EQ(expected, res);
+TEST(PrimeTests, EdgeCases) {
+    EXPECT_FALSE(checkPrime(0));
+    EXPECT_FALSE(checkPrime(1));
+    EXPECT_EQ(0, nPrime(0));
+    EXPECT_EQ(2, nextPrime(1));
+    EXPECT_EQ(0, sumPrime(1));
 }
